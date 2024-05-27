@@ -289,6 +289,11 @@ footer{
 .footerTow a{
     color: #f3c300;
 }
+footer p {
+    color: #ffffff7a;
+    margin: 10px 0 10px ;
+}
+
 .icon{
     margin-right: 20px;
 }
