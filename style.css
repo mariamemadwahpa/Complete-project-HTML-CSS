@@ -1,0 +1,423 @@
+*{  
+    margin: auto;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 710px;
+    background-image: url(./img/banner_bg.jpg);
+    background-size:cover;
+}
+.contaner{
+    background-color: rgba(0, 0, 0, 0.495);
+    height: 100%;
+    width: 100%;
+} 
+.navBar{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.linlNav a{
+    font-size: 15px;
+    margin-left: 15px;
+}
+a {
+    color:#04091e;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:none;
+    font-size: 13px;
+}
+.getStars{
+    color:#ffffff;
+    padding-top: 150px;
+    text-align: center;
+}
+.getStars h1{
+    font-size: 70px;
+    text-align: center;
+}
+.getStars button{
+    color: #fff;
+    font-weight: bolder;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    margin-top: 30px;
+    background-color: hwb(48.15deg 0% 4.71%);
+    text-align: center;
+}
+.navInput{
+    display: flex;
+    background-color:#04091e;
+    color: #fff;
+    width: 85%;
+    height: 170px;
+    margin-top: 120px;
+}
+.input{
+    width: 245px;
+    margin-right: 25px;
+    margin-top: 10px;
+    height: 35px;
+    color: #ffffff99;
+    background-color: #04091e;
+    border: #ffffff3a 1px solid;
+}
+.navInput button{
+    background-color:hwb(48.15deg 0% 4.71%);
+    padding: 12px;
+    width: 250px;
+    color: #000000c8;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+.textBook{
+    width: 14%;
+    margin-left: 60px;
+}
+
+.sectionOne {
+    text-align: center;
+}
+.textSectionOne{
+    margin: 100px;
+    text-align: center;
+}
+.textSectionOne h1{
+    font-size: 40px;
+    color: #000000e2;
+    padding-bottom: 15px;
+}
+p{
+    font-size: 16px;
+    color: #3432327c;
+}
+.rooms ,.cardsSfive{
+    display: flex;
+    flex-wrap: wrap;
+    width: 86%;
+    gap: 20px;
+} 
+.rooms h2{
+    color: #52c5fd;
+    margin-bottom: 120px;
+
+}
+.rooms span{
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.sectionTow{
+    background-image: url(./img/facilites_bg.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contanerTow{
+    height: 100%;
+    background-color: #06041bdf;
+}
+.textTow{
+    text-align: center;
+    color: #fff;
+    padding: 103px;
+    font-size: 23px;
+
+}
+.textTow p{
+    color: #ffffff4c;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.icon-spoon-knife{
+    color:hwb(48.15deg 0% 4.71%);
+}
+.cards{
+    display: flex;
+    width: 87%;
+    flex-wrap: wrap;
+}
+.card{
+    border: 1px #fff solid;
+    width: 22.43pc;
+    height: 190px;
+    margin-bottom: 27px;
+    border-radius: 12px;
+    background-color: #ffffff1d;
+    color: #ffffff;
+}
+.card p {
+    color: #ffffffb8;
+    margin: 25px;
+}
+.lineOne{
+    display: flex;
+    margin-top: 40px;
+}
+.lineOne span{
+    color: #ffffff;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.sectionThree{
+    display: flex;
+    width: 85%;
+    margin-top: 105px;
+    margin-bottom: 120px;
+}
+.About{
+    width: 50%;
+}
+.About h1{
+    font-size: 37px;
+    color: #000000de;
+}
+.About p{
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 25px;
+    color: #000000a2;
+}
+.About button{
+color: #ffffff;
+background-color: #000000;
+height: 40px;
+border: none;
+width: 220px;
+}
+.sectionfour{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 700px;
+}
+.textSectionfour{
+    text-align: center;
+    padding-top: 150px;
+}
+.textSectionfour h1{
+    font-size: 39px;
+    line-height: 75px;
+    font-weight: bolder;
+}
+.cardsSFour{
+    display: flex;
+    width: 85%;
+    gap: 30px;
+}
+.CardSF{
+    background-color: #fff;
+    width: 810px;
+    height: 225px;
+    margin-top: 80px;
+    border: #00000017 1px solid;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    line-height: 25px;
+    padding-top: 40px;
+}
+.CardSF h4{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 160px;
+}
+.star{
+    padding-top: 7px;
+    margin-left: 160px;
+
+}
+.star a {
+    color: #f3c300;
+    font-size: 14px;
+    text-decoration: none;
+}
+.cardfive button{
+background-color: #fff;
+font-weight: bold;
+margin: 20px 0px ;
+padding: 5px 20px;
+border: #00000033 solid 1px;
+}
+.cardfive h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.cardfive p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #04091e;
+    color: #fff;
+    height: 600px;
+}
+.contanerFooter{
+    width: 85%;
+    margin-top: 120px;
+    padding-top: 120px;
+
+}
+.footerOne{
+    display: flex;
+
+
+}
+.table{
+    display: flex;
+    
+}
+.footerAbout{
+    width: 25%;
+    margin-bottom: 40px;
+}
+.footerTow{
+    margin-top: 40px;
+    width:100% ;
+    display: flex;
+    gap: 400px;
+}
+.footerTow a{
+    color: #f3c300;
+}
+.icon{
+    margin-right: 20px;
+}
+ @media only screen and (max-width: 660px) {
+ 
+    .linlNav a {
+            font-size: 13px;
+    } 
+
+    .getStars h1{
+        font-size: 50px;
+    }
+    .getStars h3{
+        font-size: 15px;
+    }
+
+    .navInput{
+        display: block;
+        width: 100%;
+        height: 450px;
+    }
+    .textBook{
+        width: 50%;
+        padding-top: 30px;
+    }
+    .input , .navInput button {
+        width: 80%;
+        margin-left: 10%;    
+        margin-bottom: 10px;
+    }
+    .sectionOne {
+        margin-top: 450px;
+    }
+    .textSectionOne h1{
+        font-size: 30px;
+    }
+    .rooms ,.cardsSfive{
+        width: 100%;
+        gap: 0px;
+    } 
+    .rooms img {
+        width: 100%;
+    }
+    .rooms h2{
+        margin-bottom: 20px;
+    }
+    .sectionTow{
+        height: 1620px;
+    }
+    .card{
+        width: 98%;
+        height: 177px;
+    }
+    .card p {
+        line-height: 22px;
+    }
+    .sectionThree{
+        display: block;
+        width: 85%;
+        margin-top: 105px;
+        margin-bottom: 120px;
+    }
+    .About{
+        width: 100%;
+    }
+    .About button{
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .imgAbout img{
+        width: 100%;
+        height: 75%;
+    }
+    .sectionfour{
+        height: auto;
+    }
+    .textSectionfour{
+        width: 80%;
+    }
+    .textSectionfour h1{
+        line-height: 44px;
+        padding-bottom: 20px;
+    }
+    .cardsSFour{
+        display: block;
+    }
+    .CardSF{
+        width: 100%;
+        height: auto;
+      
+    }
+   
+    .CardSF h4{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 133px;
+    }
+    .star{
+        margin-left: 133px;
+        
+    }
+   
+    .cardfive{
+        margin-bottom: 40px;
+    }
+
+    footer{
+        height: 980px;
+    }
+
+    .footerOne{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footerAbout{
+        width: 40%;
+        height: 300px;
+    }
+    .footerTow{
+        margin-top: 40px;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        gap: 0px;
+    }
+    .icon{
+        margin-right: 20px;
+    }
+   
+
+ }
