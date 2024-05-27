@@ -295,7 +295,8 @@ footer{
  @media only screen and (max-width: 660px) {
  
     .linlNav a {
-            font-size: 10px;
+         font-size: 10px;
+         margin-left: 7px;
     } 
 
     .getStars h1{
