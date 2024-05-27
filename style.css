@@ -296,16 +296,19 @@ footer{
      .navBar{
 /*     display: flex; */
 /*     background-color: #ffffff; */
-    height: 80px;
+/*     height: 80px; */
     width: 100%;
 /*     justify-content: space-between; */
 /*     align-items: center; */
 /*     text-align: center; */
 }
+     .navBar img{
+       width: 100px;
+    }
  
     .linlNav a {
          font-size: 10px;
-         margin-left: 7px;
+         margin-left: 2px;
     } 
 
     .getStars h1{
