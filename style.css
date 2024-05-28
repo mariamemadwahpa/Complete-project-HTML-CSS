@@ -426,6 +426,9 @@ footer p {
         width: 40%;
         height: 300px;
     }
+      .footerAbout input{
+       font-size: 10px; 
+    }
     .footerTow{
         margin-top: 40px;
         display: block;
